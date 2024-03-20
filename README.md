@@ -34,17 +34,17 @@
 
    - train_kg_data.txt on the other hand is a mapping of the triples in IKG.txt, where the first column is the head entity, the second column is the relationship, and the third column is the tail entity.
 
-   - records.txt contains the patient number and the patient's serial visit records, which are self-constructed and do not involve disclosure of the patient's privacy.
+   - records.txt contains the patient number and the patient's squential visit records, which are self-constructed and do not involve disclosing the patient's privacy.
 
-   - symptoms.txt is based on the patient's serial visit records and use the API of ChatGPT to get the patient's symptoms, in addition to the use of some rules to process the data, the content of the patient's number and the patient's serial visit symptoms
+   - symptoms.txt is based on the patient's sequential visit records and uses the API of ChatGPT to get the patient's symptoms, in addition to the use of some rules to process the data, the content of the patient's number and the patient's serial visit symptoms
 
      `python API.py`
 
-   - herbs.txt is the prescription corresponding to the serial visit records, here the prescription is self-constructed and do not involve disclosure of the patient's privacy.
+   - herbs.txt is the prescription corresponding to the sequential visit records, here the prescription is self-constructed and does not involve the disclosure of the patient's privacy.
 
 3. Pre-trained model
 
-   We have provided the best model `model_epoch_best.pth` for SCEIKG, along with `Train_Test_log`, which  can be downloading from the [link](链接：https://pan.baidu.com/s/1cun5DB1vlErQeY9yWr_3bA?pwd=1234), and put it in the trained_model folder. 
+   We have provided the best model `model_epoch_best.pth` for SCEIKG, along with `Train_Test_log`, which  can be downloaded from the [link](https://pan.baidu.com/s/1cun5DB1vlErQeY9yWr_3bA?pwd=1234), and put it in the trained_model folder. 
 
 4. Run the Code
 
