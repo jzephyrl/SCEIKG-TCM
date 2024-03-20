@@ -26,7 +26,7 @@
 
 2. Data Example 
 
-   Due to the privacy of the ZzzTCM data, we have provided samples and descriptions of the data here
+   Due to the privacy of the ZzzTCM data, we have provided samples and descriptions of the dataset_example here
 
    - train_kg_data.txt contains the ternary of the TCM knowledge graph, with the first column being the head entity, the     second column being the relationship, and the third column being the tail entity
 
