@@ -22,7 +22,7 @@
        - `tqdm == 4.64.1`
        - `torch  == 1.8.1`
        - `numpy == 1.21.6`
-       - -`pickle == 0.7.5`
+       - `pickle == 0.7.5`
 
 2. Data Example 
 
